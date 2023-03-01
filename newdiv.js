@@ -9,10 +9,8 @@
     let a = document.getElementById('button').onclick = function () {
         let newDiv = document.createElement('div');
         newDiv.id = `div${i}`;
-        newDiv.innerHTML = 'ffff';
+        newDiv.innerHTML = 'dddd';
         document.getElementById('button').after(newDiv);
-        i++;
-        i++;
         i++;
     }
 }
