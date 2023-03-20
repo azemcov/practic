@@ -1,16 +1,6 @@
-{
-  //создаём кнопку
-  let newButton = document.createElement('button')
-  newButton.id='button'
-  newButton.innerHTML='Добавить элемент'
-  document.getElementById('section').append(newButton)
-  //
-  let i=1;
-  let a = document.getElementById('button').onclick = function () {
-      let newDiv = document.createElement('div');
-      newDiv.id = `div${i}`;
-      newDiv.innerHTML = 'rrrr';
-      document.getElementById('button').after(newDiv);
-      i++;
-  }
+function newDiv(n,i){
+  let newDiv = document.createElement('div');
+  newDiv.id = n;
+  newDiv.innerHTML=i;
+  document.getElementById('section').append(newDiv);
 }
