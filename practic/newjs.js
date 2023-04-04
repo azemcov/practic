@@ -546,10 +546,122 @@
 // console.log(c21)
 
 // ПРОМИСЫ
-async function getData(url){
-  let res = await fetch(url)
-  let json = await res.json()
-  return json
+// function r1(n){
+//   return (Math.round(n*100))/100
+// }
+// let a = performance.now()
+// async function getData(u){
+//   try {
+//     let res = await fetch(u)
+//     let data = await res.json()
+//     let b = performance.now()
+//     data.forEach(n=>n.name = n.name.toUpperCase())
+//     console.log(data)
+//     console.log(`this code has been executed in ${r1((b-a)/1000)} seconds`)
+//   } catch(err) {
+//     console.error(err)
+//   }
+// }
+// getData('https://jsonplaceholder.typicode.com/users')
+
+
+// let a={
+//   name:'alex',
+//   age:10,
+// }
+// let b = Object.assign({},a)
+// b.name = 'bob'
+// console.log(a.name)
+// console.log(b.name)
+
+
+// let url='https://jsonplaceholder.typicode.com/users'
+// async function showUsers(n){
+//   try {
+//     let res = await fetch(n)
+//     let data = await res.json()
+//     let data2=data.map(n=>({...n, name:n.name.toUpperCase()}))
+//     console.log(data)
+//     console.log(data2)
+//   } catch(err){
+//     console.log(err)
+//   }
+// }
+// showUsers(url)
+
+//самовызываемая функция
+// let a= (function(a,b){return a+b}(2,4))
+// console.log(a)
+
+//Перепишите функцию clone таким образом, чтобы она была способна клонировать переданный как параметр объект.
+
+// function r1(n){
+//   return (Math.round(n*100))/100
+// }
+
+// (async function getData(url){
+//   let a = performance.now()
+//   let res = await fetch(url)
+//   let data = await res.json()
+//   let b = performance.now()
+//   let data2 = data.map(n=>({...n,name:n.name.toUpperCase()}))
+//   console.log(data)
+//   console.log(data2)
+//   console.log(r1((b-a)/1000))
+// }('https://jsonplaceholder.typicode.com/users'))
+
+//1
+function f1(n){
+  console.log(n)
+};
+f1(10);
+
+//2
+let f2 = function(n){
+  console.log(n)
+};
+f2(20);
+
+//3
+let f3 = (n)=>{
+  console.log(n)
+};
+f3(30);
+
+//4
+(function f4(n){
+  console.log(n)
+}(40));
+
+//5
+async function f5(n){
+  try{
+    let res = await fetch(n)
+    let data = await res.json()
+    console.log(data[4].id*10)
+  } catch(err){
+    console.error(err)
+  }
 }
-let url='https://jsonplaceholder.typicode.com/users';
-let data = getData(url).then(d=>console.log(d))
+f5('https://jsonplaceholder.typicode.com/users')
+
+// //6 
+// function* f6(){
+
+// }
+
+//7
+let f7 = new Function('a','b','console.log(a+b)')
+f7(1,69)
+
+const person = {
+  name: 'John',
+  sayHi: () => {
+    console.log(`Hi, my name is ${this.name}`);
+  }
+};
+
+person.sayHi(); // Hi, my name is undefined
+
+const sayHi = person.sayHi;
+sayHi(); // Hi, my name is undefined
