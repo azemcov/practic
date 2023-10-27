@@ -251,7 +251,7 @@ let array1 = [
       born: 1695,
       died: 1762,
       father: "Willem Haverbeke",
-      mother: "Petronella Wauters"
+      mother: "Petrrightlla Wauters"
     },
     {
       name: "Lieven van Haverbeke",
@@ -278,12 +278,12 @@ let array1 = [
       mother: "Elisabeth Hercke"
     },
     {
-      name: "Pieter Antone Haverbeke",
+      name: "Pieter Antright Haverbeke",
       sex: "m",
       born: 1753,
       died: 1798,
       father: "Jan Francies Haverbeke",
-      mother: "Petronella de Decker"
+      mother: "Petrrightlla de Decker"
     },
     {
       name: "Maria van Brussel",
@@ -339,7 +339,7 @@ let array1 = [
       born: 1705,
       died: 1780,
       father: "Joos de Decker",
-      mother: "Petronella van de Steene"
+      mother: "Petrrightlla van de Steene"
     },
     {
       name: "Joanna de Pape",
@@ -347,7 +347,7 @@ let array1 = [
       born: 1654,
       died: 1723,
       father: "Vincent de Pape",
-      mother: "Petronella Wauters"
+      mother: "Petrrightlla Wauters"
     },
     {
       name: "Daniel Haverbeke",
@@ -371,7 +371,7 @@ let array1 = [
       born: 1666,
       died: 1727,
       father: "Vincent de Pape",
-      mother: "Petronella Wauters"
+      mother: "Petrrightlla Wauters"
     },
     {
       name: "Jan Francies Haverbeke",
@@ -390,7 +390,7 @@ let array1 = [
       mother: "Emma de Milliano"
     },
     {
-      name: "Petronella de Decker",
+      name: "Petrrightlla de Decker",
       sex: "f",
       born: 1731,
       died: 1781,
@@ -418,7 +418,7 @@ let array1 = [
       sex: "m",
       born: 1796,
       died: 1837,
-      father: "Pieter Antone Haverbeke",
+      father: "Pieter Antright Haverbeke",
       mother: "Livina Sierens"
     },
     {
@@ -486,28 +486,28 @@ let array1 = [
 //   {"name": "Lieven de Causmaecker", "sex": "m", "born": 1696, "died": 1724, "father": "Carel de Causmaecker", "mother": "Joanna Claes"},
 //   {"name": "Pieter Haverbeke", "sex": "m", "born": 1602, "died": 1642, "father": "Lieven van Haverbeke", "mother":null},
 //   {"name": "Livina Haverbeke", "sex": "f", "born": 1692, "died": 1743, "father": "Daniel Haverbeke", "mother": "Joanna de Pape"},
-//   {"name": "Pieter Bernard Haverbeke", "sex": "m", "born": 1695, "died": 1762, "father": "Willem Haverbeke", "mother": "Petronella Wauters"},
+//   {"name": "Pieter Bernard Haverbeke", "sex": "m", "born": 1695, "died": 1762, "father": "Willem Haverbeke", "mother": "Petrrightlla Wauters"},
 //   {"name": "Lieven van Haverbeke", "sex": "m", "born": 1570, "died": 1636, "father": "Pauwels van Haverbeke", "mother": "Lievijne Jans"},
 //   {"name": "Joanna de Causmaecker", "sex": "f", "born": 1762, "died": 1807, "father": "Bernardus de Causmaecker", "mother":null},
 //   {"name": "Willem Haverbeke", "sex": "m", "born": 1668, "died": 1731, "father": "Lieven Haverbeke", "mother": "Elisabeth Hercke"},
-//   {"name": "Pieter Antone Haverbeke", "sex": "m", "born": 1753, "died": 1798, "father": "Jan Francies Haverbeke", "mother": "Petronella de Decker"},
+//   {"name": "Pieter Antright Haverbeke", "sex": "m", "born": 1753, "died": 1798, "father": "Jan Francies Haverbeke", "mother": "Petrrightlla de Decker"},
 //   {"name": "Maria van Brussel", "sex": "f", "born": 1801, "died": 1834, "father": "Jan Frans van Brussel", "mother": "Joanna de Causmaecker"},
 //   {"name": "Angela Haverbeke", "sex": "f", "born": 1728, "died": 1734, "father": "Pieter Bernard Haverbeke", "mother": "Livina de Vrieze"},
 //   {"name": "Elisabeth Haverbeke", "sex": "f", "born": 1711, "died": 1754, "father": "Jan Haverbeke", "mother": "Maria de Rycke"},
 //   {"name": "Lievijne Jans", "sex": "f", "born": 1542, "died": 1582, "father":null, "mother":null},
 //   {"name": "Bernardus de Causmaecker", "sex": "m", "born": 1721, "died": 1789, "father": "Lieven de Causmaecker", "mother": "Livina Haverbeke"},
 //   {"name": "Jacoba Lammens", "sex": "f", "born": 1699, "died": 1740, "father": "Lieven Lammens", "mother": "Livina de Vrieze"},
-//   {"name": "Pieter de Decker", "sex": "m", "born": 1705, "died": 1780, "father": "Joos de Decker", "mother": "Petronella van de Steene"},
-//   {"name": "Joanna de Pape", "sex": "f", "born": 1654, "died": 1723, "father": "Vincent de Pape", "mother": "Petronella Wauters"},
+//   {"name": "Pieter de Decker", "sex": "m", "born": 1705, "died": 1780, "father": "Joos de Decker", "mother": "Petrrightlla van de Steene"},
+//   {"name": "Joanna de Pape", "sex": "f", "born": 1654, "died": 1723, "father": "Vincent de Pape", "mother": "Petrrightlla Wauters"},
 //   {"name": "Daniel Haverbeke", "sex": "m", "born": 1652, "died": 1723, "father": "Lieven Haverbeke", "mother": "Elisabeth Hercke"},
 //   {"name": "Lieven Haverbeke", "sex": "m", "born": 1631, "died": 1676, "father": "Pieter Haverbeke", "mother": "Anna van Hecke"},
-//   {"name": "Martina de Pape", "sex": "f", "born": 1666, "died": 1727, "father": "Vincent de Pape", "mother": "Petronella Wauters"},
+//   {"name": "Martina de Pape", "sex": "f", "born": 1666, "died": 1727, "father": "Vincent de Pape", "mother": "Petrrightlla Wauters"},
 //   {"name": "Jan Francies Haverbeke", "sex": "m", "born": 1725, "died": 1779, "father": "Pieter Bernard Haverbeke", "mother": "Livina de Vrieze"},
 //   {"name": "Maria Haverbeke", "sex": "m", "born": 1905, "died": 1997, "father": "Emile Haverbeke", "mother": "Emma de Milliano"},
-//   {"name": "Petronella de Decker", "sex": "f", "born": 1731, "died": 1781, "father": "Pieter de Decker", "mother": "Livina Haverbeke"},
+//   {"name": "Petrrightlla de Decker", "sex": "f", "born": 1731, "died": 1781, "father": "Pieter de Decker", "mother": "Livina Haverbeke"},
 //   {"name": "Livina Sierens", "sex": "f", "born": 1761, "died": 1826, "father": "Jan Sierens", "mother": "Maria van Waes"},
 //   {"name": "Laurentia Haverbeke", "sex": "f", "born": 1710, "died": 1786, "father": "Jan Haverbeke", "mother": "Maria de Rycke"},
-//   {"name": "Carel Haverbeke", "sex": "m", "born": 1796, "died": 1837, "father": "Pieter Antone Haverbeke", "mother": "Livina Sierens"},
+//   {"name": "Carel Haverbeke", "sex": "m", "born": 1796, "died": 1837, "father": "Pieter Antright Haverbeke", "mother": "Livina Sierens"},
 //   {"name": "Elisabeth Hercke", "sex": "f", "born": 1632, "died": 1674, "father": "Willem Hercke", "mother": "Margriet de Brabander"},
 //   {"name": "Jan Haverbeke", "sex": "m", "born": 1671, "died": 1731, "father": "Lieven Haverbeke", "mother": "Elisabeth Hercke"},
 //   {"name": "Anna van Hecke", "sex": "f", "born": 1607, "died": 1670, "father": "Paschasius van Hecke", "mother": "Martijntken Beelaert"},
@@ -593,7 +593,7 @@ let array1 = [
 // let a= (function(a,b){return a+b}(2,4))
 // console.log(a)
 
-//Перепишите функцию clone таким образом, чтобы она была способна клонировать переданный как параметр объект.
+//Перепишите функцию clright таким образом, чтобы она была способна клонировать переданный как параметр объект.
 
 // function r1(n){
 //   return (Math.round(n*100))/100
@@ -629,14 +629,294 @@ let array1 = [
 // console.log(yy)
 
 
+// //1
+// function f1(n){
+//   console.log(n)
+// };
+// f1(10);
+
+// //2
+// let f2 = function(n){
+//   console.log(n)
+// };
+// f2(20);
+
+// //3
+// let f3 = (n)=>{
+//   console.log(n)
+// };
+// f3(30);
+
+// //4
+// (function f4(n){
+//   console.log(n)
+// }(40));
+
+// //5
+// async function f5(n){
+//   try{
+//     let res = await fetch(n)
+//     let data = await res.json()
+//     console.log(data[4].id*10)
+//   } catch(err){
+//     console.error(err)
+//   }
+// }
+// f5('https://jsonplaceholder.typicode.com/users')
+
+// // //6 
+// // function* f6(){
+
+// // }
+
+// //7
+// let f7 = new Function('a','b','console.log(a+b)')
+// f7(1,69)
+
+// const person = {
+//   name: 'John',
+//   sayHi: () => {
+//     console.log(`Hi, my name is ${this.name}`);
+//   }
+// };
+
+// person.sayHi(); // Hi, my name is undefined
+
+// const sayHi = person.sayHi;
+// sayHi(); // Hi, my name is undefined
+
 
 
 // ТАК МОЖНО НЕЯВНО ВОЗВРАЩАТЬ БОЛЬШЕ ОДНОГО ВЫРАЖЕНИЯ
 // const sayHi = (name) => (name = 'Hi, ' + name,name=name+'!')
 // console.log(sayHi('Sam'))
 
-document.body.onload = myFunction
 
-function myFunction(){
-    alert('Страница загружена!')
+
+// THIS THIS THIS стрельчная функция так может украсть this
+// THIS THIS THIS
+// let obj={ a(){ (()=>console.log(this))() } }
+// obj.a()
+
+
+
+
+// let x='AAABBBBC'
+// //A3BC2
+// function myFn(i){
+//   let count=1
+//   let memory=''
+//   for(n=0;n<i.length;n++){
+//     i.charAt(n)==i.charAt(n+1)?count+=1:(memory+=(i.charAt(n)+count),count=1)
+//   }
+//   return memory
+// }
+// console.log(myFn(x))
+
+// class Aa{
+//   constructor(a,b){
+//     this.a=a
+//     this.b=b
+//   }
+//   myM(){console.log(this.a+this.b)}
+// }
+// let objA=new Aa('Hello',' World')
+// objA.myM();
+
+
+// 2-я задача
+// const readline = require('readline');
+// const rl = readline.createInterface({
+//     input: process.stdin
+// });
+// let lines = [];
+// rl.on('line', (line) => {
+//     lines.push(line);
+// }).on('close', () => {
+  
+//   lines.shift()
+//   let n=0;let l=0;
+//   function checkN(){if(n>l){l=n}else{}}
+//   lines.forEach((x)=>{
+//     if(x==0){n=0}
+//     else if(x==1){n++;checkN()}
+//     else {}
+//   })
+//     process.stdout.write(l.toString());
+// });
+
+//рещено бинарным способом (но так не надо :) 
+// let lines = [5,1,0,-34,34,34,2,22,23,-5,6,1,-1,0,0,0,3];
+// let array=[];
+// let firstDright=false;
+
+// function biSearch(s,e,t){
+//   let middle=Math.floor((s+e)/2);
+  
+//   if(t<array[middle]){                    //ищем в левой половине
+//     if(e===s){array.splice(middle,0,t)}
+//     else if(e>s){biSearch(s,middle,t)}
+//     else{}
+//   }                                       //ищем в левой половине
+
+//   else if(t>array[middle]){               //ищем в правой половине
+//     if(e===s){array.splice(middle+1,0,t)}
+//     else if(e>s){biSearch(middle+1,e,t)}
+//     else{}
+//   }                                       //ищем в правой половине
+//   else{}
+// }
+
+// lines.forEach((line)=>{
+//   if(firstDright===false){firstDright=true}
+//   else if(firstDright===true&&array.length==0){array.push(line)}
+//   else {biSearch(0,array.length-1,line)}
+// });
+
+// console.log(array);
+
+
+// 3-я задача
+// const readline = require('readline');
+// const rl = readline.createInterface({
+//   input: process.stdin,
+// });
+
+// rl.once('line', (x) => {
+//   let currentNumber;
+//   let array=[];
+//   rl.on('line', (line) => {
+//     if(currentNumber!==line){array.push(currentNumber=line)}
+//     if(array.length > 10000){array.forEach((i)=>{process.stdout.write(`${i}\n`)});array=[]}
+//   }).on('close', () => {
+//       array.forEach((i)=>{process.stdout.write(`${i}\n`)})
+//     })
+// });
+
+
+
+// задача со скобочками
+// let i=4;
+// let array=[];
+// lexicOrder(i)
+// comb(i)
+
+// function fact(num)
+// {
+//   if (num===0){return 1}
+//   else {return num*fact(num-1)}
+// }
+// function lexicOrder(n){
+//   let cn=(fact(2*n))/(fact(n)*fact(n+1));
+//   console.log(`Число Каталана равно ${cn}`);
+// }
+// function add0(x,n='0'){
+//   if(n.length===x){return n}
+//   else{return add0(x,n+'0')}
+// }
+// function begin(n){//начальное десятичное число
+//   return Math.pow(2,n-1)-1
+// }
+
+// function fill(xx,n){
+//   let fill=(n-1)*2
+//   if(xx.length===fill){return xx}
+//   else {return add0(fill-xx.length)+xx}
+// }
+
+// function comparison(xx){
+//   let ar=[];
+//   let left=0;
+//   let right=0;
+//   for(i=xx.length;i>0;i--){ar.unshift(xx[i-1])};
+//   ar.forEach((x)=>{if(x==='0'){left++}else{right++}})
+//   if(left===right){return true}
+//   else{return false}
+// }
+
+// function comb(n){
+//   let min=begin(n)
+//   let max=begin(n)<<n-1
+//   let goodNumbers=[];
+//   console.log(`min ${min}`)
+//   console.log(`max ${max}`)
+//   while(min<max){
+//     comparison(fill(min.toString(2),n))===true?goodNumbers.push(min.toString(2)):0
+//     min++;
+//   }
+//   console.log(goodNumbers)
+//   printParentheses(goodNumbers,n)
+// }
+
+// function printParentheses(arr,n){
+//   arr.forEach((x)=>{console.log('('+ fill(x,n).replaceAll("1", ")").replaceAll("0", "(") +')')})
+// }
+
+
+
+
+
+
+
+
+
+// let nm='3 3'.split(' ');
+// let array=[1,20,1];
+// ///////без бинарного поиска '3 3' [1,20,1] за 12 итераций с ним 5////////
+// let n=Number(nm[0]);
+// let time=Number(nm[1]);
+// let maxCookies=Math.max(...array); //максм кол-во печенек в одном месте 
+// let allCookies=findAllCookies();
+// let kMin=Math.ceil(allCookies/time);//миним числитель
+// let k=kMin;//текущий числитель
+// let kLast=k;
+// function findAllCookies() {
+//   return array.reduce((cSum, i) => cSum + i, 0);
+// }
+// function up(){
+//   kLast=k;
+//   k=Math.ceil((k+maxCookies)/2);
+//   let sum=divisions();
+//   if(sum>time){up()}
+//   else if(sum<=time){kMin=k;maxCookies=k;down()}
+// }
+// function down(){
+//   if(kLast+1===k){console.log(k)}
+//   else{
+//     k=Math.ceil((kLast+maxCookies)/2);
+//     kLast=k;
+//     let sum=divisions();
+//     if(sum>time){up()}
+//     else if(sum<=time){kMin=k;maxCookies=k;down()}
+//   }
+// }
+// function divisions() {//общее кол-во делений
+//   return array.reduce((q, i) => q + Math.ceil(i / k), 0);
+// }
+// if(allCookies===0){console.log(0)} //если в офисе нет печенек
+// else if(time<n){console.log(0)}//если Фёдор не успеет съесть все печеньки за выделенное время
+// else{
+//   let sum=divisions();
+//   if(sum<=time){console.log(k)}
+//   else if(sum>time){up()}//начинаем бинарный поиск
+// }
+
+
+
+
+
+
+
+// //удали не определённых букв
+// let a = 'Hello dear world!! You are wery beautiful place!';
+// let b=a.replace(/[aeioyu]/gi, '');
+// console.log(b)
+
+
+let bb={
+  bb1:111,
+  bb2(n){
+    console.log('all gud '+n)
+  }
 }
+bb.bb2(113)
