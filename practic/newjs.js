@@ -919,4 +919,4 @@ let bb={
     console.log('all gud '+n)
   }
 }
-bb.bb2(113)
+bb.bb2()
