@@ -12,7 +12,7 @@ interface InterfaceN1 {
     age: number;
 }
 
-interface InterfaceN2 {
+interface InterfaceN2 extends InterfaceN1 {
     city:string;
     reside:number;
     online:boolean;
@@ -24,25 +24,39 @@ let c:InterfaceN1={
     age:34
 }
 
-let obj:InterfaceN2={
-    city:'feature 1',
-    reside:2,
-    online:true,
-    later(income){
-        return income+this.reside
-    }
-}
 
-let common:InterfaceN1&InterfaceN2;
+let common:InterfaceN2;
 common={
     name:'Alex',
     age:34,
-    city:'SPB',
+    city:'string',
+    reside:42,
     online:true,
-    reside:2,
-    later(income) {
-        return income+this.reside
-    }
+    later:(income)=>42+this.reside
 }
+
+type TypeArray = boolean[]
+let booleanArray:TypeArray=[true,true,false]
+
+type TypeFunction=(inc:number)=>number;
+let newFunction:TypeFunction=(inc)=>{
+    return inc
+}
+let newFunction2:TypeFunction=function(inc){
+    return inc
+}
+newFunction(4)
+newFunction2(3)
+
+//перегрузки
+function getCar (name: string): string
+function getCar (name: string, price: number): string
+function getCar (name: string, price?: number): string {
+    return price ? `Название ${name}, Цена ${price}`: `Название ${name}`
+}
+
+const car1 = getCar('bmw');
+const car2 = getCar ('bmw',100000);
+//const car = getCar ('bmw',188000, 'rwegf');
 
 

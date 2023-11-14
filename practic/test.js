@@ -912,11 +912,7 @@ let array1 = [
 // let b=a.replace(/[aeioyu]/gi, '');
 // console.log(b)
 
-
-let bb={
-  bb1:111,
-  bb2(n){
-    console.log('all gud '+n)
-  }
-}
-bb.bb2()
+function hello(){
+  console.log('hello! ;)')
+};
+hello();

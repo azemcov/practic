@@ -1,3 +1,12 @@
+// При расширении одного класса другим, методы автоматически наследуются от родительского класса. 
+// А переменные надо наследовать с помошью super
+// метод модно расширить также испольщовав super
+
+// speak() {
+//   super.speak(); // Вызов метода родительского класса
+//   console.log(`${this.name} лает.`); //тут дополняется метод
+// }
+
 {
     let findSection = document.getElementById('section')
     let newContainer = document.createElement('div')
